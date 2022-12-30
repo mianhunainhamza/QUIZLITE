@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="950.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectjavafx.Login">
+   <children>
+      <VBox prefHeight="502.0" prefWidth="240.0" style="-fx-background-color: #040f13;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="text" fill="LEMONCHIFFON" strokeType="OUTSIDE" strokeWidth="0.0" text="QuizLite" translateX="14.0" translateY="253.0" wrappingWidth="210.78297996520996">
+               <font>
+                  <Font name="Calisto MT" size="51.0" />
+               </font>
+            </Text>
+            <Text fill="LEMONCHIFFON" strokeType="OUTSIDE" strokeWidth="0.0" text="Beta Version 1.1" translateX="8.0" translateY="515.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="11.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <HBox layoutX="327.0" layoutY="165.0" prefHeight="270.0" prefWidth="524.0" style="-fx-background-color: #040f13; -fx-background-radius: 10;">
+         <children>
+            <TextField fx:id="name" minHeight="40.0" minWidth="190.0" onKeyPressed="#loginAction" promptText="Enter Name" style="-fx-background-radius: 5; -fx-background-color: #fffacd;" translateX="160.0" translateY="54.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font></TextField>
+            <PasswordField fx:id="pass" minHeight="45.0" minWidth="190.0" onKeyPressed="#loginAction" promptText="Enter Password" style="-fx-background-radius: 5; -fx-background-color: #fffacd;" translateX="-29.0" translateY="125.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font></PasswordField>
+            <Button fx:id="login" contentDisplay="TOP" mnemonicParsing="false" onAction="#loginAction" onKeyPressed="#loginAction" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: #fffacd; -fx-background-radius: 10; -fx-cursor: hand;" text="Login" textFill="#635252" translateX="-217.0" translateY="210.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="Book Antiqua Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="signup" mnemonicParsing="false" onAction="#SignUp" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #fffacd; -fx-background-radius: 10; -fx-cursor: hand;" text="SignUp" textFill="#635252" translateX="-174.0" translateY="210.0">
+               <font>
+                  <Font name="Book Antiqua Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

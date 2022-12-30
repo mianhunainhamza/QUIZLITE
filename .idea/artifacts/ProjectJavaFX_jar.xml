@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProjectJavaFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjectJavaFX_jar</output-path>
+    <root id="archive" name="ProjectJavaFX.jar">
+      <element id="module-output" name="ProjectJavaFX" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/18.0.1/javafx-controls-18.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18.0.1/javafx-graphics-18.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18.0.1/javafx-base-18.0.1-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/18.0.1/javafx-fxml-18.0.1-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/18.0.1/javafx-fxml-18.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/kordamp/bootstrapfx/bootstrapfx-core/0.4.0/bootstrapfx-core-0.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18.0.1/javafx-base-18.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/18.0.1/javafx-controls-18.0.1-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18.0.1/javafx-graphics-18.0.1-win.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/images.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/file.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/message.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/items.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/pass.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/question.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/example/projectjavafx/user.txt" />
+    </root>
+  </artifact>
+</component>
